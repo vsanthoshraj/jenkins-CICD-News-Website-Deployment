@@ -270,7 +270,7 @@ Started by GitHub push by vsanthoshraj
 ✓ Deploy: I deployed container successfully
 ✓ Cleanup: I cleaned up workspace
 
-✅ BUILD SUCCESS!
+BUILD SUCCESS!
 My app is now live at: http://52.71.5.19:3000/api/news
 ```
 
@@ -388,7 +388,7 @@ I set up **automatic email notifications** when pipelines fail.
 post {
   failure {
     emailext (
-      subject: "❌ Pipeline Failed: ${JOB_NAME}",
+      subject: " Pipeline Failed: ${JOB_NAME}",
       body: """
         I failed to deploy!
         
@@ -486,25 +486,36 @@ http://my-ec2-ip:3000
 
 ---
 
-## 🐳 Docker Image I Published
+##  Docker Image I Published
 
 I pushed my image to Docker Hub without secrets:
 
 ```bash
 # I tagged my image
-docker tag news-website:latest vsanthoshraj/news-website:latest
+docker tag news-website:latest vsanthoshraj/news_website_without_env:latest
 
 # I pushed to Docker Hub
-docker push vsanthoshraj/news-website:latest
+docker push vsanthoshraj/news_website_without_env:latest
 
 # Others can now use it with their own API key:
-docker pull vsanthoshraj/news-website:latest
+docker pull vsanthoshraj/news_website_without_env:latest
 docker run -e NEWS_API_KEY=their-key -p 3000:3000 vsanthoshraj/news-website:latest
 ```
-
 ---
 
-## 📸 Screenshots & Demos
+## 📸 Screenshots 
+
+<img width="1919" height="1068" alt="Screenshot 2025-11-10 170513" src="https://github.com/user-attachments/assets/77fc8177-8938-4542-8390-920d870e8a59" />
+
+<img width="1919" height="1021" alt="Screenshot 2025-11-10 172329" src="https://github.com/user-attachments/assets/d66e80ef-533d-492a-b919-09c1d2b98bf9" />
+
+<img width="1907" height="1012" alt="Screenshot 2025-11-10 170300" src="https://github.com/user-attachments/assets/a2dd4799-7c57-4b53-9738-19df24dc74ac" />
+
+<img width="1914" height="1079" alt="Screenshot 2025-11-10 171322" src="https://github.com/user-attachments/assets/68a1109f-3e89-46d8-b1bb-7642c0073248" />
+
+<img width="1911" height="1073" alt="Screenshot 2025-11-10 171209" src="https://github.com/user-attachments/assets/d7f9d184-34e3-4fe3-8fc1-104b453f1c51" />
+
+<img width="1919" height="1048" alt="Screenshot 2025-11-10 170924" src="https://github.com/user-attachments/assets/cef694b4-f393-4e13-847b-c81900ab0654" />
 
 ### I Created These Artifacts
 
@@ -637,18 +648,4 @@ I built this project using:
 - Docker for containerization
 - Terraform for infrastructure
 - AWS for cloud infrastructure
-
-<img width="1919" height="1068" alt="Screenshot 2025-11-10 170513" src="https://github.com/user-attachments/assets/77fc8177-8938-4542-8390-920d870e8a59" />
-
-<img width="1919" height="1021" alt="Screenshot 2025-11-10 172329" src="https://github.com/user-attachments/assets/d66e80ef-533d-492a-b919-09c1d2b98bf9" />
-
-<img width="1907" height="1012" alt="Screenshot 2025-11-10 170300" src="https://github.com/user-attachments/assets/a2dd4799-7c57-4b53-9738-19df24dc74ac" />
-
-<img width="1914" height="1079" alt="Screenshot 2025-11-10 171322" src="https://github.com/user-attachments/assets/68a1109f-3e89-46d8-b1bb-7642c0073248" />
-
-<img width="1911" height="1073" alt="Screenshot 2025-11-10 171209" src="https://github.com/user-attachments/assets/d7f9d184-34e3-4fe3-8fc1-104b453f1c51" />
-
-<img width="1919" height="1048" alt="Screenshot 2025-11-10 170924" src="https://github.com/user-attachments/assets/cef694b4-f393-4e13-847b-c81900ab0654" />
-
-
 
