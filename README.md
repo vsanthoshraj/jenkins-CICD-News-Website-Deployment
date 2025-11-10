@@ -630,8 +630,6 @@ terraform-cicd-infrastructure/
 
 ---
 
-## 🙏 Credits
-
 I built this project using:
 - NewsAPI for live news data
 - Jenkins for CI/CD automation
@@ -640,16 +638,14 @@ I built this project using:
 - Terraform for infrastructure
 - AWS for cloud infrastructure
 
----
+<img width="1919" height="1068" alt="Screenshot 2025-11-10 170513" src="https://github.com/user-attachments/assets/77fc8177-8938-4542-8390-920d870e8a59" />
 
-## 📄 License
+<img width="1919" height="1021" alt="Screenshot 2025-11-10 172329" src="https://github.com/user-attachments/assets/d66e80ef-533d-492a-b919-09c1d2b98bf9" />
 
-This project is open source under the [MIT License](LICENSE).
+<img width="1907" height="1012" alt="Screenshot 2025-11-10 170300" src="https://github.com/user-attachments/assets/a2dd4799-7c57-4b53-9738-19df24dc74ac" />
 
----
+<img width="1914" height="1079" alt="Screenshot 2025-11-10 171322" src="https://github.com/user-attachments/assets/68a1109f-3e89-46d8-b1bb-7642c0073248" />
 
-**⭐ If this helps you, please star the repo!**
+<img width="1914" height="1079" alt="Screenshot 2025-11-10 171322" src="https://github.com/user-attachments/assets/cdedf4f3-f6a9-46a9-b4fc-face598203b3" />
 
-*Built by Santhosh Raj V with ❤️ for DevOps learning and job interviews*
 
-*This shows I can design, build, deploy, and maintain production systems from scratch!*
