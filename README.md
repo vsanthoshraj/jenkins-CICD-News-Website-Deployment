@@ -32,7 +32,7 @@ docker run -d \
 ## 📋 Table of Contents
 
 1. [What I Built](#what-i-built)
-2. [Architecture](#architecture)
+2. [workflow](#workflow)
 3. [Technologies I Used](#technologies-i-used)
 4. [How It Works](#how-it-works)
 5. [Application Features](#application-features)
@@ -64,29 +64,16 @@ I built a **production-ready, fully automated CI/CD pipeline** that deploys a No
 
 ---
 
-## 🏗️ Architecture
+## 🏗️ workflow
 
 Here's what I designed and implemented:
 
+<img width="3780" height="1890" alt="jenkins_pipeline" src="https://github.com/user-attachments/assets/e7e99227-08ee-4834-a128-684b372f7964" />
+
+
 ```
-┌─────────────┐
-│   GitHub    │ ◄─── I set up webhooks here
-└──────┬──────┘
-       │ Webhook Trigger (I configured)
-       ▼
-┌─────────────────┐
-│  Jenkins (EC2)  │ ◄─── I built the pipeline here
-└────────┬────────┘      (I configured email alerts)
-         │
-    ┌────┴────┬─────────┬──────────┐
-    ▼         ▼         ▼          ▼
-┌────────┐ ┌──────┐ ┌──────┐ ┌─────────┐
-│SonarQube│ │Docker│ │ AWS │ │Terraform│
-│  (EC2) │ │(EC2) │ │ EC2 │ │  (IaC)  │
-└────────┘ └──────┘ └──────┘ └─────────┘
- (Setup by  (Setup by  (Hosted)  (Written by
-   me)        me)               me)
-```
+<img width="3780" height="1890" alt="jenkins_pipeline" src="https://github.com/user-attachments/assets/c6714f7d-a033-43dd-8e08-18afb97c05e4" />
+
 
 ### Infrastructure I Provisioned
 
