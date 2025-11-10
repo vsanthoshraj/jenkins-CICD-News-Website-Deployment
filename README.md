@@ -646,6 +646,9 @@ I built this project using:
 
 <img width="1914" height="1079" alt="Screenshot 2025-11-10 171322" src="https://github.com/user-attachments/assets/68a1109f-3e89-46d8-b1bb-7642c0073248" />
 
-<img width="1914" height="1079" alt="Screenshot 2025-11-10 171322" src="https://github.com/user-attachments/assets/cdedf4f3-f6a9-46a9-b4fc-face598203b3" />
+<img width="1911" height="1073" alt="Screenshot 2025-11-10 171209" src="https://github.com/user-attachments/assets/d7f9d184-34e3-4fe3-8fc1-104b453f1c51" />
+
+<img width="1919" height="1048" alt="Screenshot 2025-11-10 170924" src="https://github.com/user-attachments/assets/cef694b4-f393-4e13-847b-c81900ab0654" />
+
 
 
