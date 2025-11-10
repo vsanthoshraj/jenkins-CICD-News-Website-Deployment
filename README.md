@@ -12,9 +12,9 @@
 
 ## 🚀 Quick Links & Repos
 
-- **📱 News Website App Repo**: [https://github.com/vsanthoshraj/g3sha-news-website-node-js](https://github.com/vsanthoshraj/g3sha-news-website-node-js)
-- **🏗️ Terraform Infrastructure Repo**: [https://github.com/vsanthoshraj/terraform-cicd-infrastructure](https://github.com/vsanthoshraj/terraform-cicd-infrastructure)
-- **🐳 Docker Image (No Secrets)**: [https://hub.docker.com/r/vsanthoshraj/news-website](https://hub.docker.com/r/vsanthoshraj/news-website)
+- **📱 News Website App Repo**: [https://github.com/vsanthoshraj/g3sha-news-website-node-js.git](https://github.com/vsanthoshraj/g3sha-news-website-node-js.git)
+- **🏗️ Terraform Infrastructure Repo**: [https://github.com/vsanthoshraj/terraform-jenkins-sonarqube-docker.git] (https://github.com/vsanthoshraj/terraform-jenkins-sonarqube-docker.git)
+- **🐳 Docker Image (No Secrets)**: [https://hub.docker.com/repository/docker/vsanthoshraj/news_website_without_env/general (https://hub.docker.com/repository/docker/vsanthoshraj/news_website_without_env/general)
 - **📰 NewsAPI Documentation**: [https://newsapi.org](https://newsapi.org)
 
 ### Try the Docker Image Yourself:
