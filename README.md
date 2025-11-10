@@ -19,11 +19,11 @@
 
 ### Try the Docker Image Yourself:
 ```bash
-docker pull vsanthoshraj/news-website:latest
+docker pull vsanthoshraj/news_website_without_env:latest
 docker run -d \
   -e NEWS_API_KEY=your_own_api_key_here \
   -p 3000:3000 \
-  vsanthoshraj/news-website:latest
+  vsanthoshraj/news_website_without_env:latest
 ```
 **Note:** The Docker image contains NO hardcoded secrets. Provide your own NewsAPI key from [newsapi.org](https://newsapi.org)
 
